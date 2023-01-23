@@ -5,8 +5,8 @@ while True:
 	if pwd == password:
 		print('登入成功')
 		break
-	elif:
+	else:
 		i = i - 1
-		input('輸入錯誤 還有', i ,'次機會')
+		print('輸入錯誤 還有', i,'次機會')
 		if i == 0:
 			break
